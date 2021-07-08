@@ -1,0 +1,16 @@
+{
+    "name": "websocket-client-sewio",
+    "version": "1.0.0",
+    "description": "Websocket Client for Sewio RTLS",
+    "main": "main.js",
+    "scripts": {
+        "start": "node websocket-client.js"
+    },
+    "dependencies": {
+        "axios": "^0.21.1",
+        "fs": "0.0.1-security",
+        "node-fetch": "^2.6.1",
+        "request": "^2.88.2",
+        "ws": "^7.0.0"
+    }
+}
