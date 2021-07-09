@@ -1,10 +1,10 @@
 {
-    "name": "websocket-client-sewio",
+    "name": "websocket-client-coliship-TMC",
     "version": "1.0.0",
-    "description": "Websocket Client for Sewio RTLS",
+    "description": "Websocket Client for Coliship TMC",
     "main": "main.js",
     "scripts": {
-        "start": "node websocket-client.js"
+        "start": "node webSocket/index.js"
     },
     "dependencies": {
         "axios": "^0.21.1",
