@@ -2,7 +2,6 @@
 
 // LIBS
 const request = require("request");
-
 const jobLogin = require("../job/jobLogin");
 
 

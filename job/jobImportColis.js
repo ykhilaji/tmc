@@ -20,7 +20,7 @@ function start(cookieJar, folder) {
 function importFile(cookieJar, filePath, onComplete) {
     if (onComplete === void 0) { onComplete = noop_1["default"]; }
     ajax.call({
-        url: `${ADDRESS.SERVERQUALIF}/api/affrAuto/import?triggerPrint=true&saveErrors=false`,
+        url: `${ADDRESS.SERVER_LOCAL}/api/affrAuto/import?triggerPrint=true&saveErrors=false`,
         method: 'POST',
         jar: cookieJar,
         formData: {

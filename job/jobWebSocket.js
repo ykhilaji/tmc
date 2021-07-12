@@ -5,14 +5,12 @@ const ws = require("ws"); // websockets
 const MessageTypes = require("../webSocket/message-types");
 const ADDRESS = require("../util/const");
 
-
-
 function start(cookieJar) {
 
     var self = this;
-    const socket = new ws(ADDRESS.WEBSOCKET_HOST_QUALIF, {
+    const socket = new ws(ADDRESS.WEBSOCKET_HOST, {
       headers: {
-        Cookie: cookieJar.getCookieString(ADDRESS.SERVERQUALIF)    
+        Cookie: cookieJar.getCookieString(ADDRESS.SERVER_LOCAL)    
       }
     });
   
